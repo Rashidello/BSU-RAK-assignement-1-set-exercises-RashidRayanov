@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(237, 227, 210);
+    color:black;
+    justify-content: center;
+    display:flex;
+    margin-top: 12%;
+
+}
+a{
+    color:black;
+}
+img{
+    height: 300px;
+    width: 300px;
+    filter:invert();
+    object-fit: cover;
+}
