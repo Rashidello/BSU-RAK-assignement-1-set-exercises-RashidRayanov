@@ -1,0 +1,12 @@
+video{
+    width:  60%;
+    height: auto;
+}
+body{
+    background-color:rgba(201, 239, 186, 0.438);
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    height: 100vh;
+
+}
