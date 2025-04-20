@@ -50,7 +50,7 @@ p {
     top: 24vh; /* Position the element 24% from the top of the viewport */
     right: 0; /* Align to the right side */
     width: 550px; /* Set width */
-    height: 493px; /* Set height */
+    height: 550px; /* Set height */
     position: absolute; /* Use absolute positioning */
     color: white; /* Set text color to white */
 }
