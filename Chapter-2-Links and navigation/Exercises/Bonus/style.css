@@ -1,49 +1,54 @@
 body {
-    font-family: "Brush Script MT", cursive;
-    background-color: #000000; 
-    padding: 0;
-    display:flex;
-    flex-direction: column; 
-    align-items: center; 
-    height: 100vh;
+    font-family: "Brush Script MT", cursive; /* font style */
+    background-color: #000000; /* background color */
+    padding: 0; /* no padding */
+    display: flex; /* flexbox layout */
+    flex-direction: column; /* column direction */
+    align-items: center; /* center items */
+    height: 100vh; /* full viewport height */
 }
+
 h1 {
-    color: #ff00a6;
-    text-align: center;
+    color: #ff00a6; /* text color */
+    text-align: center; /* center text */
 }
 
 nav ul {
-    list-style-type: none;
-    background-color: hsla(307, 29%, 17%, 0.43);
-    overflow: hidden;
-    padding: 3px;
+    list-style-type: none; /* no bullet points */
+    background-color: hsla(307, 29%, 17%, 0.43); /* background color */
+    overflow: hidden; /* prevent overflow */
+    padding: 3px; /* padding */
 }
-nav{
-    width: 100%;
-}
-nav a {
-    color: #D8008B;
-    text-decoration: none;
-    padding: 15px 15px;
-    display: block;
-    text-align: center;
-}
-nav a:hover {
-    background-color: hsla(307, 29%, 17%, 0.237);
-    color: aqua;
 
+nav {
+    width: 100%; /* full width */
 }
+
+nav a {
+    color: #D8008B; /* link color */
+    text-decoration: none; /* remove underline */
+    padding: 15px 15px; /* padding inside links */
+    display: block; /* block-level links */
+    text-align: center; /* center text in links */
+}
+
+nav a:hover {
+    background-color: hsla(307, 29%, 17%, 0.237); /* background color on hover */
+    color: aqua; /* link color on hover */
+}
+
 nav li {
-    float: left;
+    float: left; /* horizontal layout for list items */
 }
+
 main {
-    color: aqua;
-    background-color: rgba(26, 13, 20, 0.8); /
-    width: 90%; 
-    max-width: 1200px;
-    padding: 20px;
-    border: 2px solid #D8008B;
-    border-radius: 7px;
-    text-align: center;
-    margin-top: 20px;
+    color: aqua; /* text color */
+    background-color: rgba(26, 13, 20, 0.8); /* background color */
+    width: 90%; /* width of main content */
+    max-width: 1200px; /* max width */
+    padding: 20px; /* padding inside */
+    border: 2px solid #D8008B; /* border color */
+    border-radius: 7px; /* rounded corners */
+    text-align: center; /* center text */
+    margin-top: 20px; /* space from top */
 }

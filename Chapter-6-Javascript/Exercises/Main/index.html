@@ -11,7 +11,37 @@
     <div class="perfect">
         <h1>Petrol Calculator</h1>
         <div class="wrapper">
-            <div>
+            <div><!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8"> <!-- Character encoding -->
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings for mobile responsiveness -->
+                    <title>Document</title> <!-- Page title -->
+                    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+                    <script src="index.js"></script> <!-- Link to external JavaScript file -->
+                </head>
+                <body>
+                    <div class="perfect">
+                        <h1>Petrol Calculator</h1> <!-- Header of the page -->
+                        <div class="wrapper">
+                            <div>
+                                <p>Petrol price per litre </p> <!-- Label for petrol price input -->
+                                <input id="Petrol_Price" placeholder="1.72" readonly> <!-- Input field for petrol price, set as readonly -->
+                            </div>
+                            <div>
+                                <p>Litre</p> <!-- Label for litre input -->
+                                <input id="liters" placeholder="1" type="number"> <!-- Input field for litres, type set to number -->
+                            </div>
+                        </div>
+                        <div id="btn">
+                            <button onclick="calculate()">Total Amount</button> <!-- Button to trigger calculation -->
+                            <h2>Total Amount:</h2> <!-- Label for total amount -->
+                            <h2 id="totalAmount"></h2> <!-- Display the calculated total amount here -->
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
                 <p>Petrol price per litre </p>
                 <input id="Petrol_Price" placeholder="1.72"  readonly">
             </div>

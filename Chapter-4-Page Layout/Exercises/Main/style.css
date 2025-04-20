@@ -1,81 +1,91 @@
-.DigiFest{
-    margin-top: 0;
-    color: white;
-    text-decoration: underline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
+.DigiFest {
+    margin-top: 0; /* Remove top margin */
+    color: white; /* Set text color to white */
+    text-decoration: underline; /* Underline the text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set font family */
+    font-weight: 700; /* Set font weight to bold */
 }
+
 header {
-    background: #17072b;
-    font-size: 25px; 
-    text-align: center; 
-    padding:20px
+    background: #17072b; /* Set background color */
+    font-size: 25px; /* Set font size */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding around the header */
 }
+
 body {
-    font-family: Arial;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-weight: 400;
-  }
-  
+    font-family: Arial; /* Set body font */
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    font-weight: 400; /* Set default font weight */
+}
+
 a {
-    color:white;
-    text-decoration: solid;
-    margin-left: 1%;
+    color: white; /* Set link color to white */
+    text-decoration: solid; /* Set link text decoration */
+    margin-left: 1%; /* Add margin to the left of the links */
 }
-h2{
-    text-decoration: underline;
-    margin-left: 1%;
-    font-family: Tahoma;
-    font-weight: 700;
+
+h2 {
+    text-decoration: underline; /* Underline the h2 text */
+    margin-left: 1%; /* Add margin to the left */
+    font-family: Tahoma; /* Set font family for h2 */
+    font-weight: 700; /* Set font weight to bold */
 }
-p{
-    margin-top: 0%;
-    margin-left: 1%;
+
+p {
+    margin-top: 0%; /* Remove top margin */
+    margin-left: 1%; /* Add margin to the left */
 }
-.left{
-    margin-left: 1%;
-    width: 58%;
+
+.left {
+    margin-left: 1%; /* Add margin to the left of the image */
+    width: 58%; /* Set image width to 58% */
 }
+
 .right {
-    background-color: #172d67;
-    top:24vh;
-    right: 0;
-    width: 550px; 
-    height: 493px; 
-    position: absolute; 
-    color: white;
+    background-color: #172d67; /* Set background color */
+    top: 24vh; /* Position the element 24% from the top of the viewport */
+    right: 0; /* Align to the right side */
+    width: 550px; /* Set width */
+    height: 493px; /* Set height */
+    position: absolute; /* Use absolute positioning */
+    color: white; /* Set text color to white */
 }
-.right h2{
-    margin-left: 50px;
-    font-size: 30px;
+
+.right h2 {
+    margin-left: 50px; /* Add margin to the left of the h2 in the right section */
+    font-size: 30px; /* Set font size */
 }
+
 ul li {
-  margin-bottom: 10px;
-  list-style: none;
-  font-size: 25px;
+    margin-bottom: 10px; /* Add margin to the bottom of each list item */
+    list-style: none; /* Remove default list styling */
+    font-size: 25px; /* Set font size */
 }
-.br{
-    width:250px;
-    height: 250px;
-    right: 50%;
-    top:30vh;
-    position:absolute;
+
+.br {
+    width: 250px; /* Set width */
+    height: 250px; /* Set height */
+    right: 50%; /* Position element 50% from the right */
+    top: 30vh; /* Position element 30% from the top of the viewport */
+    position: absolute; /* Use absolute positioning */
 }
-.bl{
-    width:250px;
-    height: 250px;
-    right:0;
-    top:30vh;
-    position:absolute;
+
+.bl {
+    width: 250px; /* Set width */
+    height: 250px; /* Set height */
+    right: 0; /* Align to the right side */
+    top: 30vh; /* Position element 30% from the top of the viewport */
+    position: absolute; /* Use absolute positioning */
 }
+
 footer {
-    margin-top: auto;
-    text-align: center;
-    background-color: #8c15e9;
-    color: #FFFFFF;
-    padding: 10px;
-  }
-  
+    margin-top: auto; /* Push footer to the bottom */
+    text-align: center; /* Center align the text */
+    background-color: #8c15e9; /* Set background color */
+    color: #FFFFFF; /* Set text color to white */
+    padding: 10px; /* Add padding around the footer */
+}

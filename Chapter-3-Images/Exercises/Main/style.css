@@ -1,17 +1,18 @@
-body{
-    background-color:rgb(237, 227, 210);
-    color:black;
-    justify-content: center;
-    display:flex;
-    margin-top: 12%;
+body {
+    background-color: rgb(237, 227, 210); /* Set background color of the page */
+    color: black; /* Text color */
+    justify-content: center; /* Centers the content horizontally */
+    display: flex; /* Enables flexbox layout */
+    margin-top: 12%; /* Adds top margin to push content down */
+}
 
+a {
+    color: black; /* Sets link color to black */
 }
-a{
-    color:black;
-}
-img{
-    height: 300px;
-    width: 300px;
-    filter:invert();
-    object-fit: cover;
+
+img {
+    height: 300px; /* Sets image height */
+    width: 300px; /* Sets image width */
+    filter: invert(); /* Inverts the colors of the image */
+    object-fit: cover; /* Ensures the image covers the assigned space while maintaining its aspect ratio */
 }

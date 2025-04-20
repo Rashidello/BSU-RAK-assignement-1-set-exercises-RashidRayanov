@@ -1,44 +1,48 @@
 header{
-    background-color: hsla(307, 42%, 19%, 0.237);
-    text-align: center;
-    padding: 20px;
+    background-color: hsla(307, 42%, 19%, 0.237); /* background color */
+    text-align: center; /* center text */
+    padding: 20px; /* padding */
 }
+
 a{
-    color:#D8008B;
-    text-decoration: none;
+    color:#D8008B; /* font color */
+    text-decoration: none; /* remove underline */
 }
+
 body{
-    font-family: "Brush Script MT", cursive;
-    background-color: #000000; 
-    padding: 0;
-    display:flex;
-    flex-direction: column; 
-    align-items: center; 
-    height: 100vh;
+    font-family: "Brush Script MT", cursive; /* font style */
+    background-color: #000000; /* background color */
+    padding: 0; /* no padding */
+    display:flex; /* flex display */
+    flex-direction: column; /* column layout */
+    align-items: center; /* center items */
+    height: 100vh; /* full height */
 }
+
 h1{
-    text-align: center;
-    color: #D8008B;
+    text-align: center; /* center text */
+    color: #D8008B; /* color */
 }
+
 h2{
-    color: #D8008B;
+    color: #D8008B; /* color */
 }
- main{
 
-    color: aqua;
-    background-color: rgba(26, 13, 20, 0.8); 
-    width: 90%; 
-    max-width: 1200px;
-
-    border: 3px solid #D8008B;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 20px;
+main{
+    color: aqua; /* font color */
+    background-color: rgba(26, 13, 20, 0.8); /* background color */
+    width: 90%; /* width */
+    max-width: 1200px; /* max width */
+    border: 3px solid #D8008B; /* border */
+    border-radius: 20px; /* rounded corners */
+    text-align: center; /* center text */
+    margin-top: 20px; /* margin */
 }
+
 a:hover {
-    color: aqua;
-    background-color: rgba(216, 0, 139, 0.2);
-    padding: 15px; 
-    border-radius: 10px;
-    transition: 0.1s ease;
+    color: aqua; /* hover font color */
+    background-color: rgba(216, 0, 139, 0.2); /* hover background */
+    padding: 15px; /* padding */
+    border-radius: 10px; /* rounded corners */
+    transition: 0.1s ease; /* transition */
 }
